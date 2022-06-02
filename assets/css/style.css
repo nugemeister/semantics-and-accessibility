@@ -27,7 +27,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,11 +35,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -117,7 +117,7 @@ h3 {
 
 /* consolidating content boxes and multiple classes into content-box */
 
-.content-box {
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -126,8 +126,13 @@ h3 {
     color: #ffffff;
 }
 
-.content-pic img {
+.content img {
     max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .search-engine-optimization h2 {
